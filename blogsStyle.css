@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+header{
+    background-color: #19A3F1;
+    color: #fff;
+    padding: 20px;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.navbar a{
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.logo{
+    float: left;
+    padding: 10px 0;
+    margin:0;
+    font-size: 33.57px;
+    padding: 0%;
+}
+
+header h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+.buttons1{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#EB{
+    width: 50%;
+    padding: 20px;
+    float: left;
+}
+#EB button{
+    border: 5px outset #19A3F1;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#EB button:hover{
+    background-color: #19A3F1;
+}
+
+#CO{
+    width: 50%;
+    padding: 20px;
+    float: left;
+}
+#CO button{
+    border: 5px outset #19A3F1;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#CO button:hover{
+    background-color: #19A3F1;
+}
+#Ann{
+    width: 50%;
+    padding: 20px;
+    float: left;
+}
+#Ann button{
+    border: 5px outset #19A3F1;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#Ann button:hover{
+    background-color: #19A3F1;
+}
+
+.buttons2{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#GH, #BZ, #BS{
+    width: 50%;
+    padding: 20px;
+    float: left;
+}
+#GH button, #BZ button, #BS button{
+    border: 5px outset #19A3F1;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#GH button:hover, #BZ button:hover, #BS button:hover{
+    background-color: #19A3F1;
+}
+
+.buttons3{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#GAI, #EDU, #SH{
+    width: 50%;
+    padding: 20px;
+    float: left;
+}
+#GAI button, #EDU button, #SH button{
+    border: 5px outset #19A3F1;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#GAI button:hover, #EDU button:hover, #SH button:hover{
+    background-color: #19A3F1;
+}

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+header{
+    background-color: #19A3F1;
+    color: #fff;
+    padding: 20px;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.navbar a{
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.logo{
+    float: left;
+    padding: 10px 0;
+    margin:0;
+    font-size: 33.57px;
+    padding: 0%;
+}
+
+header h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+.buttons1{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#YT{
+    width: 50%;
+    padding: 20px;
+    float: left;
+}
+#YT button{
+    border: 5px outset red;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#YT button:hover{
+    background-color: red;
+}
+
+#gmail{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+#gmail button{
+    border: 5px outset green;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#gmail button:hover{
+    background-color: green;
+}
+
+#BlackBoard{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+#BlackBoard button{
+    border: 5px outset #000;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#BlackBoard button:hover{
+    background-color: #000;
+}
+.buttons2{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#medium{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+#medium button{
+    border: 5px outset #000;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#medium button:hover{
+    background-color: #000;
+}
+
+#noor{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+#noor button{
+    border: 5px outset greenyellow;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#noor button:hover{
+    background-color: greenyellow;
+    color: #000;
+}
+
+#blog{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+#blog button{
+    border: 5px outset purple;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#blog button:hover{
+    background-color: purple;
+}
+
+.buttons3{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#FCC{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+#FCC button{
+    border: 5px outset #0A0A23;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#FCC button:hover{
+    background-color: #0A0A23;
+}
+
+#dev{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+#dev button{
+    border: 5px outset #000;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#dev button:hover{
+    background-color: #000;
+}
+
+#blogs{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+#blogs button{
+    border: 5px outset orchid;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#blogs button:hover{
+    background-color: orchid;
+}
+
+
+@media screen and (max-width: 600px){
+    .buttons1{
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons2{
+        display: flex;
+        flex-direction: column;
+    }
+    #YT button, #gmail button, #BlackBoard button{
+        width: 300px;
+        height: 300px;
+        padding: 10px;
+    }
+    .buttons3{
+        display: flex;
+        flex-direction: column;
+    }
+}

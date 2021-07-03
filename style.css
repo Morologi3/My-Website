@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+header{
+    background-color: #19A3F1;
+    color: #fff;
+    padding: 20px;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    padding: 10px 0;
+    margin:0;
+    font-size: 33.57px;
+    padding: 0%;
+}
+
+#navbar{
+    overflow: hidden;
+    float: right;
+}
+#navbar a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 0 35px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+
+#navbar button{
+    float: right;
+    padding: 6px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 38%;
+    font-size: 15px;
+    width: 95px;
+    height: 38px;
+    background-color: #1C51B8;
+    text-decoration: none;
+    text-align: center;
+    margin: 2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbar button:hover{
+    background-color: #19A3F1;
+}
+
+#MyJourneyTitle{
+    text-align: center;
+    font-size: 80px;
+}
+
+.goals{
+    display: flex;
+    text-align: center;
+}
+
+.goalsChildGreen{
+    background-color: #B6FFC6;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.goalsChildWhite{
+    background-color: #fff;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.goalsChildWhite ol{
+    text-align: left;
+    font-size: 20px;
+}
+
+.goalsChildGreen p{
+    font-size: 20px;
+}
+
+.pillars{
+    background-color: #F2FFA0;
+    text-align: center;
+    padding: 20px;
+}
+
+.pillars h1{
+    font-size: 40px;
+}
+
+.pillars ul li{
+    list-style: none;
+    display: inline;
+    font-size: 26px;
+    padding: 130px
+}
+
+.contact{
+    background-color: #19A3F1;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact h1{
+    font-size: 25px;
+}
+
+.contact ul li{
+    list-style: none;
+    display: inline;
+    font-size: 15px;
+}
+#email{
+    padding-right: 130px;
+}
+#phone{
+    padding-left: 130px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+      float: none;
+    }
+
+    #navbar a, #navbar button{
+        float: none;
+        display: block;
+        text-align: center;
+        width: 60%;
+        margin: 5px;
+        padding: 10px;
+    }
+    #navbar a {
+        float: none;
+        width: 100%;
+    }
+    #MyJourneyTitle{
+        font-size: 60px;
+    }
+    .contact ul li{
+        font-size: 12px;
+        display: block;
+    }
+    #navbar button{
+        width: 100px;
+    }
+}

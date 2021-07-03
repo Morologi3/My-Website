@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+header{
+    background-color: #19A3F1;
+    color: #fff;
+    padding: 20px;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.navbar a{
+    margin: 0;
+    padding: 0;
+    float: right;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.logo{
+    float: left;
+    padding: 10px 0;
+    margin:0;
+    font-size: 33.57px;
+    padding: 0%;
+}
+
+header h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+.buttons{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#DM, #DL, #CS{
+    width: 50%;
+    padding: 20px;
+    float: left;
+}
+#DM button, #DL button, #CS button{
+    border: 5px outset red;
+    background-color: #1C51B8;
+    height: 300px;
+    width:300px;
+    cursor:pointer;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#DM button:hover, #DL button:hover, #CS button:hover{
+    background-color: #19A3F1;
+}
+
+@media screen and (max-width: 600px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
