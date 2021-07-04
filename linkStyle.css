@@ -24,6 +24,10 @@ header::after{
     color: #fff;
     font-size: 20px;
 }
+.navbar a:hover{
+    text-decoration: underline;
+    color: #F2FFA0;
+}
 
 .logo{
     float: left;

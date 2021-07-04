@@ -40,6 +40,10 @@ header::after{
     color: #fff;
     font-size: 17px;
 }
+#navbar a:hover{
+    text-decoration: underline;
+    color: #F2FFA0;
+}
 
 
 #navbar button{
